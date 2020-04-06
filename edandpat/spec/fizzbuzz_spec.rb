@@ -6,7 +6,17 @@ describe 'TDD fizzbuzz' do
     expect(fizzbuzz(1)).to eq(1)
   end
 
+  it 'should return 2 when 2 passed in' do
+  	expect(fizzbuzz(2)).to eq(2)
+  end
+
 end
+
+
+
+
+
+
 
 # describe "Q1. FizzBuzz to 20" do
 #   let(:expected) { ["1",
