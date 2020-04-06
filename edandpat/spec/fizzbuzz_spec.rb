@@ -15,9 +15,6 @@ end
 
 
 
-
-
-
 # describe "Q1. FizzBuzz to 20" do
 #   let(:expected) { ["1",
 #                     "2",
