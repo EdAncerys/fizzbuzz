@@ -14,9 +14,78 @@ describe 'TDD fizzbuzz' do
   	expect(fizzbuzz(3)).to eq('fizz')
   end
 
-  it 'should return return "buzz" 5 passed in' do
-    expect(fizzbuzz(5)).to eq('buzz')
+  it 'should return 4 when 4 passed in' do
+  	expect(fizzbuzz(4)).to eq(4)
   end
+
+  it 'should return return "buzz" 5 passed in' do
+    expect(fizzbuzz(5)).to eq("buzz")
+  end
+
+  it 'should return "fizz" when 6 passed in' do
+  	expect(fizzbuzz(6)).to eq(6)
+  end
+
+  it 'should return 7 when 7 passed in' do
+  	expect(fizzbuzz(2)).to eq(2)
+  end
+
+  it 'should return 8 when 8 passed in' do
+  	expect(fizzbuzz(8)).to eq(8)
+  end
+
+  it 'should return "fizz when 9 passed in' do
+  	expect(fizzbuzz(9)).to eq("fizz")
+  end
+
+  it 'should return "buzz" when 10 passed in' do
+  	expect(fizzbuzz(10)).to eq("buzz")
+  end
+
+  it 'should return 11 when 11 passed in' do
+  	expect(fizzbuzz(11)).to eq(11)
+  end
+
+  it 'should return "fizz" when 12 passed in' do
+  	expect(fizzbuzz(12)).to eq("fizz")
+  end
+
+  it 'should return 13 when 13 passed in' do
+  	expect(fizzbuzz(13)).to eq(13)
+  end
+
+  it 'should return 14 when 14 passed in' do
+  	expect(fizzbuzz(14)).to eq(14)
+  end
+
+  it 'should return "fizzbuzz" when 15 passed in' do
+  	expect(fizzbuzz(15)).to eq("fizzbuzz")
+  end
+
+  it 'should return 16 when 16 passed in' do
+  	expect(fizzbuzz(16)).to eq(16)
+  end
+
+  it 'should return 17 when 17 passed in' do
+  	expect(fizzbuzz(17)).to eq(17)
+  end
+
+  it 'should return 18 when 18 passed in' do
+  	expect(fizzbuzz(18)).to eq(18)
+  end
+
+  it 'should return 19 when 19 passed in' do
+  	expect(fizzbuzz(19)).to eq(19)
+  end
+
+  it 'should return 20 when 20 passed in' do
+  	expect(fizzbuzz(20)).to eq("buzz")
+  end
+
+  it 'should return "fizzbuzz" when 21 passed in' do
+  	expect(fizzbuzz(21)).to eq("fizzbuzz")
+  end
+
 end
 
 
