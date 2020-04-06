@@ -23,11 +23,11 @@ describe 'TDD fizzbuzz' do
   end
 
   it 'should return "fizz" when 6 passed in' do
-  	expect(fizzbuzz(6)).to eq(6)
+  	expect(fizzbuzz(6)).to eq("fizz")
   end
 
   it 'should return 7 when 7 passed in' do
-  	expect(fizzbuzz(2)).to eq(2)
+  	expect(fizzbuzz(7)).to eq(7)
   end
 
   it 'should return 8 when 8 passed in' do
@@ -71,7 +71,7 @@ describe 'TDD fizzbuzz' do
   end
 
   it 'should return 18 when 18 passed in' do
-  	expect(fizzbuzz(18)).to eq(18)
+  	expect(fizzbuzz(18)).to eq("fizz")
   end
 
   it 'should return 19 when 19 passed in' do
@@ -83,7 +83,7 @@ describe 'TDD fizzbuzz' do
   end
 
   it 'should return "fizzbuzz" when 21 passed in' do
-  	expect(fizzbuzz(21)).to eq("fizzbuzz")
+  	expect(fizzbuzz(21)).to eq("fizz")
   end
 
 end
