@@ -1,5 +1,9 @@
 
 
   def fizzbuzz(value)
-    return value
+    if value == 3
+      "fizz"
+    else
+      value
+    end
   end

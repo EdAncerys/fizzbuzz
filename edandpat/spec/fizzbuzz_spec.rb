@@ -1,4 +1,4 @@
-require '../lib/fizzbuzz.rb'
+require 'fizzbuzz'
 
 describe 'TDD fizzbuzz' do
   
@@ -8,6 +8,10 @@ describe 'TDD fizzbuzz' do
 
   it 'should return 2 when 2 passed in' do
   	expect(fizzbuzz(2)).to eq(2)
+  end
+
+  it 'should return 3 when 3 passed in' do
+  	expect(fizzbuzz(3)).to eq('fizz')
   end
 
 end
