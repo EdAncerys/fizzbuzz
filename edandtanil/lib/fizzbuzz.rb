@@ -1,7 +1,7 @@
 
 def fizzbuzz (number)
 
-    if number == 0
+    if number == 0 || number.class == String
       "wrong input"
     elsif number % 3 == 0 && number % 5 == 0
       "fizzbuzz"
@@ -12,4 +12,5 @@ def fizzbuzz (number)
     else
       number
     end
-  end
+
+end

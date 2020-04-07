@@ -26,6 +26,10 @@ describe 'Fizzbuzz_ET' do
     expect(fizzbuzz("a")).to eq "wrong input"
   end
 
+  it 'should return "wrong input" if -1 passed in' do
+    expect(fizzbuzz(-1)).to eq "wrong input"
+  end 
+
 end
 
 # rspec ./edandtanil
