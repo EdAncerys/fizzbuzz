@@ -10,8 +10,10 @@ describe 'Fizzbuzz_ET' do
       expect(fizzbuzz(6)).to eq 'fizz'
   end
 
-
+  it 'should return error if -1 passed in' do
+    expect(fizzbuzz(15)). to eq 'fizzbuzz'
 end
 
+end
 # rspec ./edandtanil
 #rspec spec/fizzbuzz_spec.rb
