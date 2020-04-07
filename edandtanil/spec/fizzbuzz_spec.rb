@@ -1,5 +1,7 @@
 require 'fizzbuzz'
 
+result = [0, "a", -1].each do |input| fizzbuzz(input)
+
 describe 'Fizzbuzz_ET' do
 
   it 'should retun 1 if 1 passed in' do
@@ -19,16 +21,8 @@ describe 'Fizzbuzz_ET' do
   end
 
   it 'should return "wrong input" if 0 passed in' do
-    expect(fizzbuzz(0)).to eq "wrong input"
+    expect(result).to eq "wrong input"
   end
-
-  it 'should return "wrong input" if a passed in' do
-    expect(fizzbuzz("a")).to eq "wrong input"
-  end
-
-  it 'should return "wrong input" if -1 passed in' do
-    expect(fizzbuzz(-1)).to eq "wrong input"
-  end 
 
 end
 
