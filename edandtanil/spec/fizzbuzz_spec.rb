@@ -18,8 +18,12 @@ describe 'Fizzbuzz_ET' do
     expect(fizzbuzz(5)).to eq "buzz"
   end
 
-  it 'should return "wrong input" if 0 passed in' do 
+  it 'should return "wrong input" if 0 passed in' do
     expect(fizzbuzz(0)).to eq "wrong input"
+  end
+
+  it 'should return "wrong input" if a passed in' do
+    expect(fizzbuzz("a")).to eq "wrong input"
   end
 
 end
