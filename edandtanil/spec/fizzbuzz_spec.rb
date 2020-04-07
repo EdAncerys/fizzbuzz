@@ -6,9 +6,10 @@ describe 'Fizzbuzz_ET' do
     expect(fizzbuzz(1)).to eq 1
   end
 
-  it 'should return error if -1 passed in' do 
-      expect(fizzbuzz(6)).to eq 6
+  it 'should return error if -1 passed in' do
+      expect(fizzbuzz(6)).to eq 'Fizz'
   end
+
 
 end
 
