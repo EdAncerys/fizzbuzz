@@ -7,7 +7,7 @@ describe 'Fizzbuzz_ET' do
   end
 
   it 'should return error if -1 passed in' do 
-
+      expect(fizzbuzz(6)).to eq 6
   end
 
 end
