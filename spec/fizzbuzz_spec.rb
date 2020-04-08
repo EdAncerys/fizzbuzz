@@ -1,5 +1,7 @@
 require 'fizzbuzz'
 
+# Tests for fizzbuzz app
+
 describe 'Fizzbuzz_ET' do
 
   it 'should retun 1 if 1 passed in' do
@@ -26,5 +28,3 @@ describe 'Fizzbuzz_ET' do
 
 end
 
-# rspec ./edandtanil
-#rspec spec/fizzbuzz_spec.rb
